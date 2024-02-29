@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        * {
+            margin-top: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background-color: antiquewhite;
+            padding: 10px 10px;
+            margin: 10px 5px;
+        }
+
+        nav {
+            background-color: thistle;
+            padding: 5px;
+            box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.295);
+        }
+
+        nav > a {
+            text-decoration: none;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: rgb(0, 180, 180);
+        }
+
+        main {
+            background-color: antiquewhite;
+            padding: 10px;
+            margin: 0 5px;
+            border-radius: 10px 0;
+            box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.288);
+        }
+
+        article {
+            background-color: aliceblue;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        article > p {
+            text-align: justify;
+        }
+
+        aside {
+            background-color: rgba(204, 187, 161, 0.582);
+            padding: 0 5px;
+        }
+
+        footer {
+            background-color: antiquewhite;
+            padding: 10px;
+            margin: 10px 5px;
+        }
+
+        footer > p {
+            text-align: center;
+        }
+
+        #ball {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: gray;
+            margin: auto;
+        }
+        
+        #ball > p {
+            margin: 0;
+            color: white;
+        }
+        
+        #ball > p:hover {
+            position: relative;
+            animation: spin 0.1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(360deg);
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Site HTML</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Título da Seção 1</h2>
+            <article>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi corrupti impedit pariatur modi aliquam! Fugit, ducimus assumenda! Dolorem quasi voluptate ad obcaecati blanditiis commodi! Sequi cum deleniti consequuntur maiores reprehenderit.</p>
+            </article>
+            <aside>
+                <p>Por U.S.E.R</p>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright, todos os direitos reservados &copy; 2024</p>
+        <p>Desenvolvido por XXXX.</p>
+    </footer>
+
+    <div id="ball">
+        <p>SPIN</p>
+    </div>
+</body>
+</html>

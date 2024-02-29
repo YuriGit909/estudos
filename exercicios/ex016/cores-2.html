@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos em Gradiente</title>
+    <style>
+        body {
+            background-image: image-set("logoBeelive.png");
+            display: flex;
+            flex-direction: column;
+            background-attachment: fixed;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            background-color: blue;
+            color: #fff;
+        }
+
+        a {
+            padding: 20px;
+            background-image: linear-gradient(to right, blue, yellow, red);
+            cursor: pointer;
+            transition: 10s ease-in-out;
+            margin-top: 50px;
+            color: #c219c2;
+            border: 1px solid;
+            text-decoration: none;
+        }
+
+        a:hover {
+            transform: rotate(72000deg) scale(8.0);
+            background-image: linear-gradient(to left,  green, orange, purple);
+        }
+
+        img {
+            width: 50px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Beelive Solutions</h1>
+    <a href="cores.html" type="button">
+        <img src="logoBeelive.png" alt="abeia">
+    </button>
+</body>
+</html>

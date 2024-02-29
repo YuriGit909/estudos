@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixando imagens de fundo</title>
+    <style>
+        body {
+            height: 100vh;
+            /* 
+            ORDEM DA SHORTHAND BACKGROUND:
+            1° background-color: black;
+            2° background-image: url('images/wallpaper002.jpg');
+            3° background-repeat: no-repeat;
+            4° background-position: center center;
+            5° background-size: cover;  --> não funciona se usada na shorthand
+            6° background-attachment: fixed; */
+
+            background: black url('images/wallpaper002.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        main {
+            background-color: white;
+            max-width: 500px;
+            margin: auto;
+            padding: 10px;
+            border-radius: 10px;
+            border: 2px solid darkblue;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis consequuntur accusamus, possimus alias quibusdam facilis officia, corporis debitis quod cupiditate nulla enim, soluta harum. Nisi modi aliquam at explicabo facilis. Lorem ipsum dolor sit amet consectetur adipisicing elit. At accusamus totam praesentium nisi, modi veniam, nam ipsum sit obcaecati voluptatibus, nesciunt suscipit. Dolorem esse incidunt laudantium voluptatum ut commodi dignissimos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta placeat ullam saepe totam accusamus adipisci quod, minus, omnis, fugiat labore vitae ipsum debitis eligendi quidem aut? Nemo, impedit neque. At.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis consequuntur accusamus, possimus alias quibusdam facilis officia, corporis debitis quod cupiditate nulla enim, soluta harum. Nisi modi aliquam at explicabo facilis. Lorem ipsum dolor sit amet consectetur adipisicing elit. At accusamus totam praesentium nisi, modi veniam, nam ipsum sit obcaecati voluptatibus, nesciunt suscipit. Dolorem esse incidunt laudantium voluptatum ut commodi dignissimos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta placeat ullam saepe totam accusamus adipisci quod, minus, omnis, fugiat labore vitae ipsum debitis eligendi quidem aut? Nemo, impedit neque. At.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis consequuntur accusamus, possimus alias quibusdam facilis officia, corporis debitis quod cupiditate nulla enim, soluta harum. Nisi modi aliquam at explicabo facilis. Lorem ipsum dolor sit amet consectetur adipisicing elit. At accusamus totam praesentium nisi, modi veniam, nam ipsum sit obcaecati voluptatibus, nesciunt suscipit. Dolorem esse incidunt laudantium voluptatum ut commodi dignissimos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta placeat ullam saepe totam accusamus adipisci quod, minus, omnis, fugiat labore vitae ipsum debitis eligendi quidem aut? Nemo, impedit neque. At.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis consequuntur accusamus, possimus alias quibusdam facilis officia, corporis debitis quod cupiditate nulla enim, soluta harum. Nisi modi aliquam at explicabo facilis. Lorem ipsum dolor sit amet consectetur adipisicing elit. At accusamus totam praesentium nisi, modi veniam, nam ipsum sit obcaecati voluptatibus, nesciunt suscipit. Dolorem esse incidunt laudantium voluptatum ut commodi dignissimos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta placeat ullam saepe totam accusamus adipisci quod, minus, omnis, fugiat labore vitae ipsum debitis eligendi quidem aut? Nemo, impedit neque. At.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis consequuntur accusamus, possimus alias quibusdam facilis officia, corporis debitis quod cupiditate nulla enim, soluta harum. Nisi modi aliquam at explicabo facilis. Lorem ipsum dolor sit amet consectetur adipisicing elit. At accusamus totam praesentium nisi, modi veniam, nam ipsum sit obcaecati voluptatibus, nesciunt suscipit. Dolorem esse incidunt laudantium voluptatum ut commodi dignissimos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta placeat ullam saepe totam accusamus adipisci quod, minus, omnis, fugiat labore vitae ipsum debitis eligendi quidem aut? Nemo, impedit neque. At.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nemo, inventore porro quis alias distinctio ducimus pariatur non velit? Hic eos dolore itaque quibusdam asperiores. Quas saepe nemo voluptatibus quia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolorum totam tempora provident aspernatur animi esse. Modi perferendis voluptatum sapiente! Totam labore maiores ad numquam veritatis, vel dicta obcaecati inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, quia quod iusto assumenda quasi nulla reiciendis ea expedita officiis dolorem aut molestiae error eum libero exercitationem magni repellat tenetur nam!</p>
+    </main>
+</body>
+</html>

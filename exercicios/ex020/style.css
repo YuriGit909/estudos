@@ -1,0 +1,31 @@
+div > iframe {
+    display: none;
+}
+
+div:hover {
+    background-image: linear-gradient(to bottom, black, white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+div:hover > p::before {
+    content: "==> ";
+}
+
+div:hover > p::after {
+    content: " <==";
+}
+
+div:hover > iframe {
+    display: block;
+}
+
+a:visited {
+    color: green;
+}
+
+a:active {
+    color: red;
+}

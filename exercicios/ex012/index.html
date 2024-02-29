@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com vídeos</title>
+</head>
+<body>
+    <h1>Inserindo vídeos com HTML5</h1>
+    <p>Inserção de vídeo localmente com o uso de HTML5.</p>
+    <video width="500px" poster="images/car-g.png" controls>
+        <source src="video/meu-video.mp4" type="video/mp4">
+        <source src="video/Meu-Video.mkv" type="video/mp4">
+        <source src="video/Meu-Video.webm" type="video/ogg">
+        <source src="video/Meu-Video.webm" type="video/webm">
+        <p>Infelizmente, o seu navegador não é compatível com a reprodução de vídeos localmente.</p>
+    </video>
+    <p><a href="images/car-g.png" download="car-g.png" type="image/png">Clique aqui</a> e faça o download da thumbnail do vídeo.</p>
+
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/Ow7nDnZTbDw?si=xXaMHr7706AZ_xFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Inserindo vídeos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/277798603?h=d07909d06e&color=ff9933" width="500" height="281" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

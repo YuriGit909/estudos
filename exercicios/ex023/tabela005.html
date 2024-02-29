@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 600px;
+            border-collapse: collapse;
+        }
+
+        col.col1 {
+            background-color: lightgreen;
+        }
+
+        col.col2 {
+            background-color: lightblue;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="col1">
+            <col class="col2" span="2">
+            <col class="col1">
+        </colgroup>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td>Joana</td>
+            <td>Feminino</td>
+            <td>24 anos</td>
+            <td>Desenvolvedora de Software</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>Masculino</td>
+            <td>30 anos</td>
+            <td>Lojista</td>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>Feminino</td>
+            <td>25 anos</td>
+            <td>Arquiteta</td>
+        </tr>
+        <tr>
+            <td>Armando</td>
+            <td>Masculino</td>
+            <td>56 anos</td>
+            <td>Piloto de Aviões</td>
+        </tr>
+        <tr>
+            <td>Joséia</td>
+            <td>Feminino</td>
+            <td>78 anos</td>
+            <td>Bióloga Marinha</td>
+        </tr>
+        <tr>
+            <td>Marcos</td>
+            <td>Masculino</td>
+            <td>43 anos</td>
+            <td>Engenheiro Civil</td>
+        </tr>
+    </table>
+</body>
+</html>

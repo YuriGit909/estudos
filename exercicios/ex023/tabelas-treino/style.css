@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+caption {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+}
+
+tbody > tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+tfoot th {
+    text-align: left;
+    font-size: 1.1em;
+    background-color: lightgray;
+}
+
+tfoot td {
+    background-color: lightgreen;
+}

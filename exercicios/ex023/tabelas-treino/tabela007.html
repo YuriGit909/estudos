@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Exemplo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tabela de Treino</h1>
+    <table>
+        <colgroup>
+            <col>
+            <col>
+            <col>
+            <col>
+            <col>
+            <col>
+            <col>
+        </colgroup>
+        <caption>Produtos de venda</caption>
+        <thead>
+            <tr>
+                <th rowspan="2" scope="col">Nome do Produto</th>
+                <th rowspan="2" scope="col">Preço Unitário (R$)</th>
+                <th colspan="2" scope="colgroup">Quantidade</th>
+                <th rowspan="2" scope="col">Condições do Produto</th>
+                <th rowspan="2" scope="col">N° Solicitação</th>
+                <th rowspan="2" scope="col">Total (R$)</th>
+            </tr>
+            <tr>
+                <th scope="col">Em Estoque</th>
+                <th scope="col">Solicitado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Camiseta Polo Preta</td>
+                <td>59,90</td>
+                <td>200 unidades</td>
+                <td>30 unidades</td>
+                <td>Apto para Venda</td>
+                <td>001</td>
+                <td>1790,00</td>
+            </tr>
+            <tr>
+                <td>Tênis Esportivo</td>
+                <td>99,90</td>
+                <td colspan="5">&mdash;&mdash;</td>
+            </tr>
+            <tr>
+                <td>Bolsa esportiva</td>
+                <td>49,90</td>
+                <td>80 unidades</td>
+                <td>&mdash;&mdash;</td>
+                <td>Apto para Venda</td>
+                <td colspan="2">&mdash;&mdash;</td>
+            </tr>
+            <tr>
+                <td>Terno</td>
+                <td>299.90</td>
+                <td>100 unidades</td>
+                <td>60 unidades</td>
+                <td>Apto para Venda</td>
+                <td>002</td>
+                <td>17.994,00</td>
+            </tr>
+            <tr>
+                <td>Bermuda</td>
+                <td>29,90</td>
+                <td>40 unidades</td>
+                <td>20 unidades</td>
+                <td>Apto para Venda</td>
+                <td>003</td>
+                <td>598,00</td>
+            </tr>
+            <tr>
+                <td>Camisa Social</td>
+                <td>39,90</td>
+                <td>35 unidades</td>
+                <td>15 unidades</td>
+                <td>Não Apto para Venda</td>
+                <td>004</td>
+                <td>&mdash;&mdash;</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Kit<br>Gravata + Meia Social</td>
+                <td>19,90</td>
+                <td>10 unidades</td>
+                <td>10 unidades</td>
+                <td>Apto para Venda</td>
+                <td rowspan="2">005</td>
+                <td>199,00</td>
+            </tr>
+            <tr>
+                <td>9,90</td>
+                <td>20 unidades</td>
+                <td>15 unidades</td>
+                <td>Não Apto para Venda</td>
+                <td>&mdash;&mdash;</td>
+            </tr>
+            <tr>
+                <td>Moletom</td>
+                <td>89,90</td>
+                <td>30 unidades</td>
+                <td>20 unidades</td>
+                <td>Apto para Venda</td>
+                <td>006</td>
+                <td>1.798,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="6" scope="row">Subtotal do Pedido:</th>
+                <td><strong>22.379,00</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

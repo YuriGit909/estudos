@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens que se adaptam com HTML</title>
+</head>
+<body>
+    <h1>Imagens que se adaptam</h1>
+    <p style="text-align: justify;">Podemos criar imagens que se adaptam a tela de diferentes dispositivos com HTML usando a tag &lt;picture&gt;.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="images/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="images/imagem-m.png" type="image/png">
+        <img src="images/imagem-g.png" alt="Imagem flexível">
+    </picture>
+
+    <picture>
+        <source media="(max-width: 200px)" srcset="images/car-pp.png" type="image/png">
+        <source media="(max-width: 750px)" srcset="images/car-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="images/car-m.png" type="image/png">
+        <img src="images/car-g.png" alt="foto de carro">
+    </picture>
+    <p style="text-align: justify;">Faça o download da imagem de acordo com o tamanho da tela do seu dispositivo.</p>
+    <ul>
+        <li><a href="images/car-g.png" download="car-g.png" type="image/png" >Faça o download da imagem grande;</a></li>
+        <li><a href="images/car-m.png" download="car-m.png" type="image/png">Faça o download da imagem média;</a></li>
+        <li><a href="images/car-p.png" download="car-p.png" type="image/png">Faça o download da imagem pequena;</a></li>
+        <li><a href="images/car-pp.png" download="car-pp.png" type="image/png">Faça o download da imagem extra pequena.</a></li>
+    </ul>
+
+    <h1>Inserindo Áudios</h1>
+    <audio preload="metadata" controls>
+        <source src="audio/statement.mp3" type="audio/mpeg">
+        <source src="audio/statement.ogg" type="audio/ogg">
+        <source src="audio/statement.wav" type="audio/wav">
+        <p>Infelizmente, não foi possível carregar o áudio. Caso prefira, faça o download do arquivo MP3 logo abaixo:
+        </p>
+        <a href="audio/statement.mp3" download="statement.mp3" type="audio/mpeg">Baixe aqui!</a>
+    </audio>
+</body>
+</html>
