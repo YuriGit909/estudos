@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="ipais">Países:</label>
+            <select name="pais" id="ipais">
+                <option value="" selected>--- Escolha ---</option>
+                <optgroup label="Grupo-A">
+                    <option value="EUA">Estados Unidos</option>
+                    <option value="BR">Brasil</option>
+                    <option value="JP">Japão</option>
+                    <option value="CAN">Canadá</option>
+                </optgroup>
+                <optgroup label="Grupo-B">
+                        <option value="CH">China</option>
+                        <option value="UK">Reino Unido</option>
+                        <option value="FR">França</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="listprof">
+            <datalist id="listprof">
+                <option value="ADM">Administrador</option>
+                <option>Desenvolvedor</option>
+                <option>Supervisor</option>
+            </datalist>
+        </p>
+        
+        <p>
+            <label for="imsg">Mensagem:</label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
+    </form>
+</body>
+</html>
