@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/* Estilo para impressão */
+
+* {
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+menu {
+    display: none;
+}
+
+main::after {
+    content: 'Essa página foi desenvolvida para se tornar adaptável a impressoras. Veja mais em https://github.com/yurigit909';
+}
+
+main > p {
+    display: none;
+}
