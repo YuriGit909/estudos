@@ -10,6 +10,10 @@ html, body {
     background-color: rgb(197, 197, 197);
 }
 
+header {
+    background-color: rgb(143, 143, 143);
+}
+
 header h1 {
     background-color: rgb(160, 160, 160);
     text-align: center;
